@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBase" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <!-- Branded window background. A cold start on a loaded emulator leaves
+             this drawable on screen for ~8s before RN paints LoaderScreen, so it
+             has to look like the app's splash rather than a flat dark rectangle. -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:colorBackground">@color/splashBackground</item>
+        <item name="android:statusBarColor">@color/splashBackground</item>
+        <item name="android:navigationBarColor">@color/splashBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="AppThemeBase" />
+
+</resources>

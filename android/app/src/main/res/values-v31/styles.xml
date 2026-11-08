@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- On API 31+ the system draws its own splash and ignores windowBackground
+         for that first window: windowSplashScreenBackground must be set
+         explicitly, otherwise it falls back to colorBackground and can flash
+         light. The post-splash window still uses @drawable/splash_screen. -->
+    <style name="AppTheme" parent="AppThemeBase">
+        <item name="android:windowSplashScreenBackground">@color/splashDeep</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/splashBackground</item>
+    </style>
+
+</resources>
